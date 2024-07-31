@@ -1,0 +1,23 @@
+{
+  "name": "download-bb",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.5",
+    "@types/bun": "latest",
+    "@types/unzipper": "^0.10.9",
+    "adm-zip": "^0.5.10",
+    "axios": "^1.6.6",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "path": "^0.12.7",
+    "url": "^0.11.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "fstream": "",
+    "music-metadata": "^7.14.0",
+    "unzipper": "^0.10.14"
+  }
+}
